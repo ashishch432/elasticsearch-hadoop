@@ -31,4 +31,4 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Build with Gradle Wrapper
-      run: ./gradlew :spark:spark-20:build
+      run: ./gradlew distZip
