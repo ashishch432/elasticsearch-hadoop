@@ -30,4 +30,5 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Build with Gradle Wrapper
-      run: export JAVA8_HOME=$JAVA_HOME_8_X64 && ./gradlew tasks
+      run: export JAVA8_HOME=$JAVA_HOME_8_X64 && ./gradlew spark20scala211Jar && ls build/libs
+
